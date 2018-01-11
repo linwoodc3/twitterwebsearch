@@ -3,7 +3,7 @@ import os
 import sys
 
 if sys.version < '2.7':
-    print 'Python >= 2.7 required'
+    print ('Python >= 2.7 required')
     sys.exit(1)
 
 from setuptools import setup
